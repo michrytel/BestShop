@@ -1,0 +1,23 @@
+/*
+Główny (color-primary) #08A6E4
+Główny używany przy cieniach (color-primary-shadow) rgba(7, 172, 230, .16)
+Akcent czerwony (color-redish) #FB3B64
+Akcent zielony (color-green) #55DFB4
+Czarny (color-black) #000000
+Szary (color-grey) #A5A5A5
+Jasny szary (color-light-grey) #F7F7F7
+Biały (color-white) #FFFFFF
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    width: 1352px;
+}
