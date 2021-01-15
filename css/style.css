@@ -632,12 +632,12 @@ kontener z trzecia treścią
 
 
 
-
 }
 
 .contact-content {
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -656,7 +656,8 @@ kontener z trzecia treścią
 .contact-data {
     display: flex;
     gap: 10px;
-    
+
+
 }
 
 .form-row{
@@ -688,6 +689,8 @@ kontener z trzecia treścią
 .form-checkbox {
     font-size: 12px;
     max-width: 100%;
+
+
 }
 
 .form-checkbox-input {
@@ -697,17 +700,20 @@ kontener z trzecia treścią
     border: 1px solid var(--color-bluelight);
     width: 12px;
     height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 
 }
 
 .form-checkbox-input:checked {
-    background-image: url(/assets/Checkmark.svg);
+    background-image: url(../assets/Checkmark.svg);
     background-position: center;
-    background-size: contain;
-    border: 1px solid red;
-    width: 12px;
-    height: 12px;
-    outline: none;
+    background-repeat: no-repeat;
+
+
 }
 
 .contact-btn {
