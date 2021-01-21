@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 :root {
     --color-bluelight: #08a6e4;
     --color-green: #55dfb4;
@@ -82,6 +83,7 @@ body {
     border-bottom: 4px solid transparent;
     letter-spacing: 3.28px;
     text-decoration: none;
+    transition : 0.5s;
 
 }
 
