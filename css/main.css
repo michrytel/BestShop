@@ -23,14 +23,14 @@
   top: 0.5%;
   z-index: 2;
 }
-@media (max-width: 768px) {
-  .hamburger {
-    display: none;
-  }
-}
 .hamburger i {
   color: var(--color-bluelight);
   font-size: 2em;
+}
+@media (min-width: 768px) {
+  .hamburger i {
+    display: none;
+  }
 }
 
 .container__header {
