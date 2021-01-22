@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 -5px 40px #00000029;
+  @media (max-width: 768px) {
+    margin-bottom: 10px;
+  }
 }
 .footer__box {
   display: flex;
@@ -20,6 +23,10 @@
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
+
 }
 .footer__logo {
   text-decoration: none;
@@ -35,6 +42,9 @@
   display: flex;
   gap: 15px;
   margin-right: 120px;
+  @media (max-width: 768px) {
+    margin-right: 0;
+  }
 }
 .twitter {
   background-image: url(../../assets/Twitter.svg);
