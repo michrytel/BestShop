@@ -11,7 +11,8 @@
   height: 800px;
   font-family: var(--font-raleway);
   @media (max-width: 768px) {
-    height: 100vh;
+    height: 600px;
+    text-align: center;
 
   }
 }
@@ -38,9 +39,5 @@
   -moz-border-radius: 50px;
   border-radius: 50px;
   box-shadow: 5px 10px 14px #7fd3f5;
-  margin-bottom: 250px;
-  @media (max-width: 768px) {
-    height: 100vh;
-    padding: 20px 20px;
-  }
+  margin-bottom: 220px;
 }

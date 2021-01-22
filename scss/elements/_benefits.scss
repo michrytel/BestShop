@@ -82,6 +82,7 @@ kontener z druga treścią
   @media (max-width: 768px) {
     flex-direction: column-reverse;
     gap: 30px;
+    max-width: 95vw;
   }
 
 
@@ -137,12 +138,12 @@ kontener z trzecia treścią
   @media (max-width: 768px) {
     flex-direction: column-reverse;
     gap: 30px;
+    max-width: 95vw;
   }
 
 }
 
 .benefits__3-graph {
-  align-self: flex-end;
   min-width: 35%;
   background-color: var(--color-green);
   border: 1px solid var(--color-green);
@@ -154,6 +155,7 @@ kontener z trzecia treścią
   height: 300px;
   max-width: 450px;
   margin: 0 auto;
+  align-self: center;
 
 }
 
@@ -177,6 +179,9 @@ kontener z trzecia treścią
   display: flex;
   flex-direction: column;
   box-shadow: 5px 10px 27px white;
+  @media (max-width: 768px) {
+    align-self: center;
+  }
 
 
 }

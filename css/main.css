@@ -127,7 +127,8 @@
 }
 @media (max-width: 768px) {
   .hero {
-    height: 100vh;
+    height: 600px;
+    text-align: center;
   }
 }
 
@@ -152,13 +153,7 @@
   align-items: center;
   border-radius: 50px;
   box-shadow: 5px 10px 14px #7fd3f5;
-  margin-bottom: 250px;
-}
-@media (max-width: 768px) {
-  .hero__btn {
-    height: 100vh;
-    padding: 20px 20px;
-  }
+  margin-bottom: 220px;
 }
 
 .benefits__1-2 {
@@ -244,6 +239,7 @@ kontener z druga treścią
   .benefits__2 {
     flex-direction: column-reverse;
     gap: 30px;
+    max-width: 95vw;
   }
 }
 
@@ -295,11 +291,11 @@ kontener z trzecia treścią
   .benefits__3-container {
     flex-direction: column-reverse;
     gap: 30px;
+    max-width: 95vw;
   }
 }
 
 .benefits__3-graph {
-  align-self: flex-end;
   min-width: 35%;
   background-color: var(--color-green);
   border: 1px solid var(--color-green);
@@ -311,6 +307,7 @@ kontener z trzecia treścią
   height: 300px;
   max-width: 450px;
   margin: 0 auto;
+  align-self: center;
 }
 
 .benefits__3-img {
@@ -330,6 +327,11 @@ kontener z trzecia treścią
   display: flex;
   flex-direction: column;
   box-shadow: 5px 10px 27px white;
+}
+@media (max-width: 768px) {
+  .benefits__3-content {
+    align-self: center;
+  }
 }
 
 .benefits__3-title {
@@ -640,11 +642,6 @@ kontener z trzecia treścią
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 -5px 40px #00000029;
-}
-@media (max-width: 768px) {
-  .footer {
-    margin-bottom: 10px;
-  }
 }
 
 .footer__box {
