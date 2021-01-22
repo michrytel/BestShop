@@ -6,7 +6,6 @@
   gap: 50px;
 
 
-
 }
 
 /*
@@ -21,6 +20,10 @@ kontener z pierwszą treścią
   min-height: 370px;
   padding: 30px;
   box-shadow: 5px 10px 27px white;
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
 
 }
 
@@ -28,7 +31,8 @@ kontener z pierwszą treścią
   position: relative;
   z-index: 1;
 }
-.benefits__1-img{
+
+.benefits__1-img {
   max-width: 380px;
   max-height: 200px;
 
@@ -50,9 +54,11 @@ kontener z pierwszą treścią
   max-width: 416px;
   max-height: 188px;
 }
+
 .benefits__1-title {
   font: normal normal normal 36px Raleway;
 }
+
 .benefits__1-txt {
   font: normal normal normal 16px Open Sans;
 
@@ -73,19 +79,25 @@ kontener z druga treścią
   padding: 30px;
   max-width: 830px;
   box-shadow: 5px 10px 27px white;
-
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
 
 
 }
 
 .benefits__2-graph {
   z-index: 1;
+  position: relative;
 }
-.benefits__2-img{
+
+.benefits__2-img {
   max-width: 380px;
   max-height: 320px;
 
 }
+
 .benefits__2-backside {
   width: 280px;
   height: 280px;
@@ -101,9 +113,11 @@ kontener z druga treścią
   max-width: 416px;
   max-height: 230px;
 }
+
 .benefits__2-title {
   font: normal normal normal 36px Raleway;
 }
+
 .benefits__2-txt {
   font: normal normal normal 16px Open Sans;
 
@@ -119,11 +133,16 @@ kontener z trzecia treścią
   margin-right: auto;
   margin-left: auto;
   justify-content: space-between;
-
+  margin-bottom: 100px;
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
 
 }
 
 .benefits__3-graph {
+  align-self: flex-end;
   min-width: 35%;
   background-color: var(--color-green);
   border: 1px solid var(--color-green);
@@ -132,37 +151,40 @@ kontener z trzecia treścią
   justify-content: center;
   align-items: center;
   box-shadow: 5px 10px 27px var(--color-green);
-
-
-
-
-
+  height: 300px;
+  max-width: 450px;
+  margin: 0 auto;
 
 }
-.benefits__3-img{
-  max-width: 210px;
-  max-height: 190px;
+
+.benefits__3-img {
+  max-width: 50%;
+  min-height: 50%;
+  max-height: 320px;
+
 
 }
 
 
 .benefits__3-content {
-
+  min-height: 320px;
+  height: 100%;
+  align-self: flex-end;
   padding: 30px;
-  max-width: 55%;
   background-color: white;
   border: 1px solid #E8E9ED;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   box-shadow: 5px 10px 27px white;
 
 
 }
+
 .benefits__3-title {
   font: normal normal normal 36px Raleway;
 }
+
 .benefits__3-txt {
   font: normal normal normal 16px Open Sans;
 }
