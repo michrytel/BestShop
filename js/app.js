@@ -46,7 +46,6 @@ function sumValues() {
   }
 }
 
-
 const inputs = (what, sumwhat, prices) => {
   if(what.value > 0 && +what.value === parseInt(+what.value)){
     what.style.color = "black"
